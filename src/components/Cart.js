@@ -24,7 +24,7 @@ const Cart = ({ cart, removeFromCart, clearCart, checkout }) => {
                 <tr key={item.id}>
                   <td>{item.name}</td>
                   <td>{item.quantity}</td>
-                  <td>${item.price * item.quantity}</td>
+                  <td>₹{item.price * item.quantity}</td>
                   <td>
                     <button onClick={() => removeFromCart(item.id)}>-</button>
                   </td>
@@ -33,7 +33,7 @@ const Cart = ({ cart, removeFromCart, clearCart, checkout }) => {
             </tbody>
           </table>
           <p className="total">
-            <strong>Total: ${total.toFixed(2)}</strong>
+            <strong>Total: ₹{total.toFixed(2)}</strong>
           </p>
           <button onClick={checkout} className="checkout-btn">
             Checkout
