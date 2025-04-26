@@ -7,4 +7,6 @@ export const products = [
   { id: 6, name: "Sunglasses", price: 25, img: "sunglasses.jpg" },
   { id: 7, name: "Wrist Watch", price: 75, img: "watch.jpg" },
   { id: 8, name: "Backpack", price: 50, img: "backpack.jpg" },
+  { id: 9, name: "Classic Shirt", price: 50, img: "shirt.jpg" },
+  { id: 10, name: "Cotton Pant", price: 50, img: "pant.jpg" },
 ];
